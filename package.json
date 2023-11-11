@@ -6,7 +6,9 @@
   "scripts": {
     "upland": "npx hardhat run --network bsc scripts/upgradeLand.js",
     "upwear": "npx hardhat run --network bsc scripts/upgradeWear.js",
-    "uptest": "npx hardhat run --network bnb scripts/testUpgrade.js"
+    "uptest": "npx hardhat run --network bnb scripts/testUpgrade.js",
+    "depland": "npx hardhat run --network bsc scripts/deployLand.js"
+
   },
   "keywords": [],
   "author": "",
