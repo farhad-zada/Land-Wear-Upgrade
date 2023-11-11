@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dpall": "npx hardhat run --network bsc scripts/deployForSix.js && npx hardhat run --network bsc scripts/deployForNine.js && npx hardhat run --network bsc scripts/deployForYear.js"
+    "upland": "npx hardhat run --network bsc scripts/upgradeLand.js",
+    "upwear": "npx hardhat run --network bsc scripts/upgradeWear.js"
   },
   "keywords": [],
   "author": "",
