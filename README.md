@@ -35,3 +35,5 @@ Wear proxy
 Wear implementation <10.12.2023>
 
 `0x3B4A364687B737F02Af26a709aE760b3f7B954f7`
+
+Copyright (c) 2023 Farhad Seyfullazada
