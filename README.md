@@ -15,11 +15,13 @@ Land implementation <10.12.2023>
 `0x57136e0d8d5ED46Ff5A8E7D2bC0bC76d58F6987F`
 
 To upgrade Land run the command below in your terminal or command line:
+
 `npm run upland`
 
 ## Wear
 
 To upgrade Wear run the command below in your terminal or command line:
+
 `npm run upwear`
 
 Wear admin:
