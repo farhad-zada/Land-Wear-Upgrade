@@ -3,12 +3,9 @@ const logg = require("./logg");
 require("dotenv").config();
 
 async function main() {
-  const Land = await ethers.getContractFactory("Land");
-  console.log("Waiting the transaction... ✨");
+  const Land = await ethers.deployContract("Land");
 
-  const land = await upgrades.deployImplementation(Land, {
-    kind: "transparent",
-  });
+  const land = await Land.waitForDeployment();
 
   logg(land);
   return "success ✨";
